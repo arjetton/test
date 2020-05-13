@@ -6,7 +6,15 @@ text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 title = "Testing"
 
 +++
-\### Greeters/Visitor Card Pickup
+### For the month
+
+Assignment responsibilities: Curt Frechmann
+
+Announcements: Cary Ashton
+
+Collection (count and post): Jerry Brinkley and Bryce Cann
+
+### Greeters/Visitor Card Pickup
 
 | Week of:  | MAR 1, 2020  | MAR 8, 2020  | MAR 15, 2020 | MAR 22, 2020 | MAR 29, 2020 |
 
