@@ -35,3 +35,5 @@ fields:
       format: markdown
   label: Text
   description: Enter your text here.
+pages:
+- content/testing.md
