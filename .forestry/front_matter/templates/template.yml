@@ -1,4 +1,37 @@
 ---
 label: template
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Enter your title
+- name: date
+  type: datetime
+  label: Date
+  description: Enter publishing date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Enter tags here. Try not to go overboard with them. Use "Psalms" or
+    "David" if the material is centrally about that text or that person, not if they're
+    mentioned tangentially. (Presumably all lessons and articles are ultimately about
+    God, but tagging every post with "God" would make that tag a bit pointless.)
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  description: Enter your text here.
